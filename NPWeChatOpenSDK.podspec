@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   
   s.source_files = 'NPWeChatOpenSDK/*.h'
   s.pod_target_xcconfig = { 'VALID_ARCHS' => 'x86_64 armv7 arm64' }
-  s.vendored_libraries = "NPWeChatOpenSDK_NoPay/*.a"
+  s.vendored_libraries = "NPWeChatOpenSDK/*.a"
   s.frameworks = "SystemConfiguration", "Security", "UIKit", "CoreTelephony", "WebKit", "CFNetwork"
   s.libraries = "z", "sqlite3.0", "c++"
 end
