@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'NPWeChatOpenSDK'
-  s.version          = '1.0.0'
+  s.version          = '1.0.1'
   s.summary          = '微信带支付版本'
 
   s.description      = <<-DESC
